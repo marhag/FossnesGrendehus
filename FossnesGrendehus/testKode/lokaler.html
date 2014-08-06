@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Fossnes Grendehus</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stilsettFossnes.css" title="main" />
+	
+	<script type="text/javascript" src="/Users/marhag/Documents/FossnesGrendehus/jquery-1.11.1.min.js"> </script>
+	<script type="text/javascript">
+		$(function() {
+   			$("[name=toggler]").click(function(){
+    		$('.toHide').hide();
+        	$("#blk-"+$(this).val()).show();
+    		});
+ 		});
+	</script>
+</head>
+
+<body>
+	<div id="kropp">
+	<div id="header">
+		
+		<div id="banner">
+			<div id="logo">
+				<a href="#"><img src="img/Sanvito-Pro-Stroke.png" /></a>
+			</div>
+			<div id="sitat">
+			<h3> Vår felles storstue</h3>
+			</div>
+		</div>
+		<div id="meny">
+			<ul>
+        		<li><a href="#">Hjem</a></li>
+       			<li><a href="#">Lokaler</a></li>
+       			<li><a href="#">Utleie</a></li>
+       			<li><a href="#">Om oss</a></li>
+       			<li><a href="#">Historie</a></li>
+       			<li><a href="#">Kontakt oss</a></li>
+       		</ul>	
+		</div>
+	</div>
+	<div id="bodywrapper"> 
+	<!-- header.inc kan slutte her-->
+	
+		<div id="innhold">
+			<div id="content">
+				<div id="lokaleTekst">
+					<h3> Lokaler </h3>
+				</div>
+				
+				<div id="lokaleWrap">
+					<div id="radioknapper">
+						<label><input id="rdb4" type="radio" name="toggler" value="4" checked="checked"/>Oversikt</label> 
+						<label><input id="rdb1" type="radio" name="toggler" value="1" />Storstue</label> <br>
+						<label><input id="rdb2" type="radio" name="toggler" value="2" />Liten stue</label> 
+						<label><input id="rdb3" type="radio" name="toggler" value="3" />Kjøkken</label> <br>
+						<label><input id="rdb5" type="radio" name="toggler" value="5" />Møterom</label> <br>
+					</div>	
+				
+					<div id="wrapBilder">
+						<div id="blk-1" class="toHide" style="display:none"> 
+	   	 					<img src="img/Sanvito-Pro.png" />
+						</div>
+				
+						<div id="blk-2" class="toHide" style="display:none">
+	    	 				<img src="img/Apple-Chancery.png" />
+	     					<div id="tekst">
+	     						<div id="test"><p> halla ooo fkf fjksd skkd <br>dlsdfksa jfksdfj <br> hahhahahah ahahhaha</p></div>
+	     					</div>
+						</div>
+		
+						<div id="blk-3" class="toHide" style="display:none">
+							STORT BILDE HER!
+						</div>
+	
+						<div id="blk-4" class="toHide" > <!-- add style="display:none" hvis den skal starte blank -->
+				  		 	Fossnes Grendehus kan tilby lokaler til ulike formål. Bla i linkene til venstere for bilder og mer 
+				  		 	informasjon om alle tilbudene.
+				  		 	
+				  		 	<div id="lokaleFront"><img src="img/front.png" /></div>
+						</div>
+						
+						<div id="blk-5" class="toHide" style="display:none">
+							MØTEROM
+						</div>	
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	<!-- footer.inc kan starte her-->	
+	</div> <!--Slutt bodywrapper-->
+	</div><!--Slutt kropp-->
+	
+	<div id="footer">   
+		<div id="footer_innhold">
+			<div id="footer_kart">
+				<img src="img/testMaps.png" />
+			</div>
+			<div id="footer_adresse">
+			<h3>Besøksadresse</h3>
+
+			Fossnes Grendehus<br>
+			Skjelfossveien 89<br>
+			Postboks 10<br>
+			1827 Hobøl
+			</div>
+		</div>
+		<div id="av_meg">
+			<p>Innhold laget av Martin Hagen</p>
+		</div>
+		
+	</div
+	
+	
+</body>

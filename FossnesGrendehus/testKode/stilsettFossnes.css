@@ -1,0 +1,535 @@
+/*  Stilsett til http://www.fossnesgrendehus.no 
+	Laget av Martin Hagen
+*/
+
+body
+{
+	/*width: 950px;
+	margin: auto;*/
+ 	
+	//border: thin solid black;
+	font-family: verdana;
+	font-size: 13px;
+	background: #e5e5e5;
+	//background: #aba9a2;
+}
+
+#kropp
+{
+	width: 950px;
+	margin: auto;
+}
+
+/* Header med logo og tekst*/
+#header
+{
+	width: 950px;
+	position: relative;
+}
+#banner
+{
+	//background-color: white;
+}
+
+#logo
+{
+	margin-left: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#sitat
+{
+	position: absolute;
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+	font-size: 20px;
+	top: 0;
+	right: 0;
+	//margin-top: 4em;
+	margin-right: 4em;
+	color: gray;
+}
+
+/* Meny */
+#meny
+{
+	width: 950px;
+	color: black;
+	text-align: center;
+	//border: thin solid black;
+	//background-color: #f3f3f3;
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+	font-size: 10px;
+	font-weight:600;	
+}
+#meny ul 
+{
+	padding:0;
+	margin:0;
+	padding-bottom: 0.2em;
+	padding-top: 0.3em;
+	list-style: none;
+	position: relative;
+	display:inline-table;
+	border-radius: 25px;
+	background-color: white;
+	//background-color: #f3f3f3;
+	//border: 1px solid #bbbbbb;
+	border: 1px solid black;
+	
+}
+
+#meny ul li
+{
+	display: inline;
+	list-style: none;
+}
+
+#meny ul li a 
+{
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
+	color:black;
+	font-size:25px;
+	text-decoration:none;
+	
+	//background-color: #f3f3f3;
+	border: 1px solid black;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	//border: 1px solid #b0dafe;
+}
+
+#meny ul li:last-child a
+{
+	border: none;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+} 
+#meny ul li:first-child a
+{
+	border-left: 1px solid #b0dafe;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+} 
+
+#meny li a:hover 
+{  
+	//background-color: dbdbdb;
+	border-color: black;
+	//color: #b0dafe;
+	background-color: #808080;
+	color: white;
+}
+
+#meny ul li:first-child a:hover
+{
+	border-left: 1px solid #808080;
+} 
+
+/* body og resten av innhold på forsiden */
+
+#bodywrapper
+{
+	width: 950px;
+	//border: 1px solid black;
+	//position: relative;
+	//min-height: 400px;
+}
+
+#mainBilde
+{
+	position: relative;
+	width: 900px;
+	height: 300px;
+	border: 1px solid black;
+	margin-top: 2em;
+	margin-left: 1.7em;
+	background: white;
+}
+
+#fossnesFoto
+{
+	position: absolute;
+	left: 0;
+}
+
+#fossnesTekst
+{
+	position: absolute;
+	right: 0;
+	
+	border-left: 1px solid black;
+	width: 300px;
+	height: 300px;
+	color: white;
+	//background: #4e2900;
+	background: #808080;
+	
+}
+#fossnesTekst h4
+{
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight:600;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+}
+#fossnesTekst p
+{
+	font-size: 14px;
+	margin-left: 2em;
+	margin-top: 0;
+	margin-right: 2em;
+}
+#treBilde
+{
+	position: relative;
+	width: 900px;
+	height: 350px;
+	//border: 1px solid black;
+	margin-top: 2em;
+	margin-left: 1.7em;
+	
+	
+}
+
+#rute1
+{
+	position: absolute;
+	left: 0;
+	width: 275px;
+	height: 350px;
+	border: 1px solid black;
+	background: white;
+}
+
+#ruteOverskrift1
+{
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+	font-size: 30px;
+	width: 275px;
+	height: 50px;
+	color: white;
+	font-size: 25px;
+	background: black;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+#ruteOverskrift1 h5
+{
+	margin: 0;
+	text-align: center;
+	padding-top: 0.3em;
+	font-size: 30px;
+	font-weight:500;
+	
+}
+#ruteTekst1
+{
+	font-size: 15px;
+	margin-left: 1em;
+}
+#ruteTekst1 img
+{
+	padding-top: 0.2em;
+	margin-left: 1em;
+	height: 120px;
+	width: 220px;
+}
+#ruteTekst1 ul
+{
+	font-size: 15px;
+	list-style-image: url('img/knapp.png');
+}
+
+#rute2
+{
+	position: absolute;
+	left: 312.5px;
+	width: 275px;
+	height: 350px;
+	border: 1px solid black;
+	background: white;
+}
+
+#ruteOverskrift2
+{
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+	width: 275px;
+	height: 50px;
+	color: white;
+	font-size: 25px;
+	background: black;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#ruteOverskrift2 h5
+{
+	margin: 0;
+	text-align: center;
+	padding-top: 0.3em;
+	font-size: 30px;
+	font-weight:500;
+}
+#rutekontakt2
+{
+	font-size: 15px;
+	margin-left: 1em;
+}
+#spaceFront
+{
+	height: 60px;
+}
+
+#rutekontakt2 h3
+{
+	
+	
+}
+#rutekontakt2 a
+{
+	color: inherit;
+	//text-decoration:none;
+	
+}
+#rute3
+{
+	position: absolute;
+	left: 625px;
+	width: 275px;
+	height: 350px;
+	border: 1px solid black;
+	background: white;
+}
+
+#ruteOverskrift3
+{
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+	width: 275px;
+	height: 50px;
+	color: white;
+	font-size: 25px;
+	background: black;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#ruteOverskrift3 h5
+{
+	margin: 0;
+	text-align: center;
+	padding-top: 0.3em;
+	font-size: 30px;
+	font-weight:500;
+	
+}
+/* Footer*/
+#footer
+{
+	position: relative;
+	height: 200px;
+	//border: 1px solid black;
+	background-color: #a3a2a2;
+	margin-top: 5em;
+	color: #666b74;
+}
+
+#footer_innhold
+{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -475px;
+	width: 950px;
+}
+#footer_adresse
+{
+	
+	//display: block;
+	float: left; 
+	margin-left: 3em;
+	width: 215px;
+	height: 125px;
+	margin-top: 1em;
+	font-weight:200;
+	
+}
+#footer_kart
+{
+	margin-top: 1em;
+	margin-right: 3em;
+	float: right;
+}
+
+#av_meg
+{
+	position: absolute;
+	bottom:0;
+	left: 44%;
+	color: #8b8b8b;
+	font-size: 10px;
+}
+
+/* Innhold på sider starter her*/
+#innhold
+{
+	width: 900px;
+	//height: 450px;
+	border: 1px solid black;
+	background-color: white;
+	margin: auto;
+	margin-top: 2em;	
+}
+
+#content
+{
+	margin-top: 2em;
+}
+
+/* Lokaler */
+
+#lokaleTekst
+{
+	//margin-left: 4em;
+	//margin-bottom: 2em;
+	text-align: center;
+}
+
+#lokaleTekst h3
+{
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+	font-size: 40px;
+	margin-bottom: 0.5em;
+	
+}
+
+#lokaleWrap
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 15px;
+}
+#lokaleFront
+{
+	margin-left: 4em;
+	margin-top: 2em;
+}
+
+#blk-1
+{
+	height: 400px;
+	width: 600px;
+	background: green;
+}
+
+#blk-2
+{
+	height: 400px;
+	width: 600px;
+	background: red;
+}
+
+#blk-3
+{
+	height: 400px;
+	width: 600px;
+	background: yellow;
+	margin-top: 0px;
+}
+#blk-4
+{
+	height: 400px;
+	width: 550px;
+}
+
+#blk-5
+{
+	height: 700px;
+	width: 600px;
+	background: blue;
+}
+#tekst
+{
+	float:right;
+	height: 250px;
+	width: 200px;
+	background: black;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+}
+#test
+{
+	text-align: left;
+	padding-left: 1em;
+	color: white;
+}
+
+#wrapBilder
+{
+	width: 600px;
+	margin-left: 200px;
+}
+#radioknapper
+{
+	width: 120px;
+	float: left;
+	margin-left: 4em;
+}
+
+#radioknapper label
+{
+	font-size: 18px;
+}
+/* Radio */
+
+#radioknapper input[type="radio"] {
+    background-color: #ddd;
+    border-radius: 15px;
+    box-shadow: inset 0 1px 1px hsla(0,0%,100%,.8),
+                0 0 0 1px hsla(0,0%,0%,.6),
+                0 1px 1px hsla(0,0%,0%,.6),
+                0 1px 1px hsla(0,0%,0%,.4),
+                0 1px 1px hsla(0,0%,0%,.2),
+                0 0px 0px hsla(0,0%,0%,.2);
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-right: 7px;
+    position: relative;
+    width: 15px;
+    margin-bottom: 0px;
+    -webkit-appearance: none;
+}
+#radioknapper input[type="radio"]:after {
+    background-color: #444;
+    border-radius: 25px;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.4),
+                0 1px 1px hsla(0,0%,100%,.8);
+    content: '';
+    display: block;
+    height: 7px;
+    left: 4px;
+    position: relative;
+    top: 4px;
+    width: 7px;
+}
+#radioknapper input[type="radio"]:checked:after {
+    background-color: blue;
+}​
+

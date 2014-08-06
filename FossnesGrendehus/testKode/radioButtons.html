@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Testside</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="menyCss.css" title="main" />
+	<script type="text/javascript" src="/Users/marhag/Documents/FossnesGrendehus/jquery-1.11.1.min.js"> </script>
+	<script type="text/javascript">
+$(function() {
+    $("[name=toggler]").click(function(){
+            $('.toHide').hide();
+            $("#blk-"+$(this).val()).show('slow');
+    });
+ });
+</script>
+</head>
+
+<body>
+	<h1> Hallo!=? </h1>
+	<form name="form1" id="my_form" method="post" action="">
+    <div><label><input type="radio" name="group1" value="opt1" checked>opt1</label></div> 
+    <div><label><input type="radio" name="group1" value="opt2">opt2</label></div>  
+    <div><label><input type="radio" name="group1" value="opt3">opt3</label></div>  
+    <input type="submit" value="Submit">
+	</form>
+
+
+<div id="opt1" class="desc">lorem ipsum dolor</div>
+<div id="opt2" class="desc" style="display: none;">consectetur adipisicing</div>
+<div id="opt3" class="desc" style="display: none;">sed do eiusmod tempor</div>
+	
+	<!--<script>
+		$(document).ready(function(){ 
+   			$("input[name$='group1']").click(function() {
+        	var test = $(this).val();
+       		$("div.desc").hide();
+        	$("#"+test).show();
+    		}); 
+		});
+	</script>-->
+	
+</body>

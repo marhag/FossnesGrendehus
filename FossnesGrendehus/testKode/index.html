@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Fossnes Grendehus</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stilsettFossnes.css" title="main" />
+	
+	<script type="text/javascript" src="/Users/marhag/Documents/FossnesGrendehus/jquery-1.11.1.min.js"> </script>
+	<script type="text/javascript">
+		$(function() {
+   			$("[name=toggler]").click(function(){
+    		$('.toHide').hide();
+        	$("#blk-"+$(this).val()).show();
+    		});
+ 		});
+	</script>
+</head>
+
+<body>
+	<div id="kropp">
+	<div id="header">
+		
+		<div id="banner">
+			<div id="logo">
+				<a href="#"><img src="img/Sanvito-Pro-Stroke.png" /></a>
+			</div>
+			<div id="sitat">
+			<h3> Vår felles storstue</h3>
+			</div>
+		</div>
+		<div id="meny">
+			<ul>
+        		<li><a href="#">Hjem</a></li>
+       			<li><a href="#">Lokaler</a></li>
+       			<li><a href="#">Utleie</a></li>
+       			<li><a href="#">Om oss</a></li>
+       			<li><a href="#">Historie</a></li>
+       			<li><a href="#">Kontakt oss</a></li>
+       		</ul>	
+		</div>
+	</div>
+	<div id="bodywrapper">
+	
+		<div id="mainBilde">
+			<div id="fossnesFoto">
+				<img src="img/ute1.jpg" />
+			</div>
+			
+			<div id="fossnesTekst">
+				<h4> Velkommen til oss!</h4>
+				<p>Huset er godt egnet for å feire små og store begivenheter, som bryllup og konfirmasjon.</p>
+
+				<p>Huset har et stort og fint kjøkken, og mulighet for catering!</p>
+
+				<p>Vi håper du velger Fossnes for ditt neste lag!</p>
+			</div>
+		</div>
+		
+		<div id="treBilde">
+		
+			<div id="rute1">
+				<div id="ruteOverskrift1">
+					<h5>Våre tjenester</h5>
+				</div>
+				
+				<div id="ruteTekst1">
+					<img src="img/storstue1.jpg" />
+					<p>Fossnes Grendehus kan lånes for bl.a</p>
+					<ul>
+						<li>private arrangementer</li>
+						<li>politiske møter</li>
+						<li>juletrefester</li>
+						<li>skytestevner</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="rute2">
+				<div id="ruteOverskrift2">
+					<h5>Kontakt oss</h5>
+				</div>
+				<div id="rutekontakt2">
+					<p>Hvis du lurer på noe eller <br>vil leie lokale, kontakt oss på: </p>
+					<div id="spaceFront">
+					</div>
+					<h3>telefon: 92 42 95 33<br>
+					eller <a href="mailto:post@fossnesgrendehus.no">mail</a></h3>
+				</div>
+				
+			</div>
+			
+			<div id="rute3">
+				<div id="ruteOverskrift3">
+					<h5>Facebook</h5>
+				</div>
+				<div id="fbInnlegg">
+					<img src="img/face.jpg" />
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		
+	</div>
+	</div>
+	
+	<div id="footer">
+		<div id="footer_innhold">
+			<div id="footer_kart">
+				<img src="img/testMaps.png" />
+			</div>
+			<div id="footer_adresse">
+			<h3>Besøksadresse</h3>
+
+			Fossnes Grendehus<br>
+			Skjelfossveien 89<br>
+			Postboks 10<br>
+			1827 Hobøl
+			</div>
+		</div>
+		<div id="av_meg">
+			<p>Innhold laget av Martin Hagen</p>
+		</div>
+		
+	</div
+	
+	
+</body>
