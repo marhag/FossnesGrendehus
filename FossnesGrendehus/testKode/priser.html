@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Fossnes Grendehus</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stilsettFossnes.css" title="main" />
+	
+	<script type="text/javascript" src="/Users/marhag/Documents/FossnesGrendehus/jquery-1.11.1.min.js"> </script>
+	<script type="text/javascript">
+		$(function() {
+   			$("[name=toggler]").click(function(){
+    		$('.toHide').hide();
+        	$("#blk-"+$(this).val()).show();
+    		});
+ 		});
+	</script>
+</head>
+
+<body>
+	<div id="kropp">
+	<div id="header">
+		
+		<div id="banner">
+			<div id="logo">
+				<a href="#"><img src="img/Sanvito-Pro-Stroke.png" /></a>
+			</div>
+			<div id="sitat">
+			<h3> Vår felles storstue</h3>
+			</div>
+		</div>
+		<div id="meny">
+			<ul>
+        		<li><a href="#">Hjem</a></li>
+       			<li><a href="#">Lokaler</a></li>
+       			<li><a href="#">Utleie</a></li>
+       			<li><a href="#">Om oss</a></li>
+       			<li><a href="#">Historie</a></li>
+       			<li><a href="#">Kontakt oss</a></li>
+       		</ul>	
+		</div>
+	</div>
+	<div id="bodywrapper"> 
+	<!-- header.inc kan slutte her-->
+	
+		<div id="innhold">
+			<div id="content">
+				<div id="lokaleTekst">
+					<h3> Utleie </h3>
+				</div>
+				
+				<div id="priserTekst">
+					Fossnes Grendehus tilbyr flere forskjellige pakker til utleie og forskjellig utstyr å leie.
+				</div>
+				
+				<div id="priserWrap">
+					<div id="lokalerPriser">
+						<h3> Lokaler </h3>	
+						<ul>
+        					<li>Hele huset, helg</li>
+       						<li>Hele huset, en dag</li>
+       						<li>Storesal + kjøkken / Ukedag</li>
+       						<li>Lillesal + kjøkken / Ukedag</li>
+       						<li>Kjøkken</li>
+       						<li>Møterommet + kjøkken</li>
+       						<li>Kr. 7150,-</li>
+       						<li>Kr. 5400,-</li>
+       						<li>Kr. 3800,- / 3500,-</li>
+       						<li>Kr. 2950,- / 2500,-</li>
+       						<li>Kr. 1350,-</li>
+       						<li>Kr. 700,-</li>
+	       				</ul>	
+					</div>
+				
+					<div id="tilbehørPriser">
+						<h3> Utstyr </h3>	
+						<ul>
+        					<li>Bord, pr. stk</li>
+       						<li>Stoler, tre m/rosa trekk, pr. stk</li>
+       						<li>Stoler, plastikk, pr. stk</li>
+       						<li>Middagsservise, pr. kuvert</li>
+       						<li>Kaffeservise, pr. kuvert</li>
+       						<li>Fat med bestikk</li>
+       						<li>Kr. 45,-</li>
+       						<li>Kr. 35,-</li>
+       						<li>Kr. 20,-</li>
+       						<li>Kr. 55,-</li>
+       						<li>Kr. 30,-</li>
+       						<li>Kr. 30,-</li>
+	       				</ul>	
+					</div>
+				</div>
+				
+				<div id="priserTekst">
+					Hvis du lurer på noe eller lurer på om lokale er ledig, ta en titt på vår 
+					<a href="#"><strong>Lokaler</strong></a> side, eller <a href="#"><strong>kontakt oss</strong>.
+				</div>
+				
+				
+			</div>
+		</div>
+	<!-- footer.inc kan starte her-->	
+	</div> <!--Slutt bodywrapper-->
+	</div><!--Slutt kropp-->
+	
+	<div id="footer">   
+		<div id="footer_innhold">
+			<div id="footer_kart">
+				<img src="img/testMaps.png" />
+			</div>
+			<div id="footer_adresse">
+			<h3>Besøksadresse</h3>
+
+			Fossnes Grendehus<br>
+			Skjelfossveien 89<br>
+			Postboks 10<br>
+			1827 Hobøl
+			</div>
+		</div>
+		<div id="av_meg">
+			<p>Innhold laget av Martin Hagen</p>
+		</div>
+		
+	</div
+	
+	
+</body>

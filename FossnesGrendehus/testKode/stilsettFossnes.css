@@ -9,7 +9,7 @@ body
  	
 	//border: thin solid black;
 	font-family: verdana;
-	font-size: 13px;
+	font-size: 15px;
 	background: #e5e5e5;
 	//background: #aba9a2;
 }
@@ -405,8 +405,6 @@ body
 
 #lokaleTekst
 {
-	//margin-left: 4em;
-	//margin-bottom: 2em;
 	text-align: center;
 }
 
@@ -425,6 +423,11 @@ body
 	margin-bottom: 2em;
 	font-size: 15px;
 }
+#wrapBilder img
+{
+	border-radius: 25px;
+}
+
 #lokaleFront
 {
 	margin-left: 4em;
@@ -433,9 +436,39 @@ body
 
 #blk-1
 {
-	height: 400px;
+	height: 600px;
 	width: 600px;
-	background: green;
+	//background: green;
+}
+
+#strek1Storstue
+{
+	width: 575px;
+	margin-left: 1em;
+	border-bottom: 1px solid #aba9a2;
+	margin-top: 1em;
+}
+#teskt1Storstue
+{
+	margin-top: 1em;
+	float:left;
+	height: 250px;
+	width: 350px;
+	color: white;
+	background: #808080;
+	
+	border-radius: 25px;
+}
+
+#teskt1Storstue p
+{
+	margin-left: 1em;
+}
+
+#storstueBilde2
+{
+	margin-top: 1em;
+	float:right;
 }
 
 #blk-2
@@ -464,6 +497,7 @@ body
 	width: 600px;
 	background: blue;
 }
+
 #tekst
 {
 	float:right;
@@ -473,6 +507,7 @@ body
 	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
     background: rgba(0, 0, 0, 0.5);
 }
+
 #test
 {
 	text-align: left;
@@ -489,22 +524,27 @@ body
 {
 	width: 120px;
 	float: left;
-	margin-left: 4em;
+	margin-left: 3em;
+	border-right: 1px solid #aba9a2;
+	height: 400px;
+	width: 140px;
 }
-
 #radioknapper label
 {
 	font-size: 18px;
+	cursor: pointer;
+	line-height: 1.8em;
 }
+
 /* Radio */
 
 #radioknapper input[type="radio"] {
-    background-color: #ddd;
+    background-color: none;
     border-radius: 15px;
     box-shadow: inset 0 1px 1px hsla(0,0%,100%,.8),
-                0 0 0 1px hsla(0,0%,0%,.6),
-                0 1px 1px hsla(0,0%,0%,.6),
-                0 1px 1px hsla(0,0%,0%,.4),
+                0 0 0 1px hsla(0,0%,0%,.4),
+                0 1px 1px hsla(0,0%,0%,.2),
+                0 1px 1px hsla(0,0%,0%,.3),
                 0 1px 1px hsla(0,0%,0%,.2),
                 0 0px 0px hsla(0,0%,0%,.2);
     cursor: pointer;
@@ -517,9 +557,9 @@ body
     -webkit-appearance: none;
 }
 #radioknapper input[type="radio"]:after {
-    background-color: #444;
+    background-color: #cbc7c6;
     border-radius: 25px;
-    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.4),
+   	box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.4),
                 0 1px 1px hsla(0,0%,100%,.8);
     content: '';
     display: block;
@@ -530,6 +570,42 @@ body
     width: 7px;
 }
 #radioknapper input[type="radio"]:checked:after {
-    background-color: blue;
+    background-color: #6481a9;
 }​
+#radioknapper label:checked:after {
+    color: #6481a9;
+}​
+/* Priser Side */
+
+#{}
+
+#priserTekst
+{
+	margin-left: 5em;
+	margin-bottom: 2em;
+}
+#priserTekst a
+{
+	color: black;
+}
+#priserWrap
+{
+	margin-left: 5em;
+	margin-bottom: 4em;
+}
+
+#priserWrap h3
+{
+ 	 font-size: 24px;
+}
+
+#priserWrap ul
+{
+ 	 columns: 2;
+ 	 -webkit-columns: 2;
+ 	 -moz-columns: 2;
+ 	 font-size: 18px;
+}
+
+
 
