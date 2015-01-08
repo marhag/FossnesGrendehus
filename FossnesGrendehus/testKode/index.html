@@ -18,6 +18,14 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div id="kropp">
 	<div id="header">
 		
@@ -33,7 +41,7 @@
 			<ul>
         		<li><a href="#">Hjem</a></li>
        			<li><a href="#">Lokaler</a></li>
-       			<li><a href="#">Utleie</a></li>
+       			<li><a href="#">Prisliste</a></li>
        			<li><a href="#">Om oss</a></li>
        			<li><a href="#">Historie</a></li>
        			<li><a href="#">Kontakt oss</a></li>
@@ -82,10 +90,22 @@
 				</div>
 				<div id="rutekontakt2">
 					<p>Hvis du lurer på noe eller <br>vil leie lokale, kontakt oss på: </p>
-					<div id="spaceFront">
-					</div>
+					
 					<h3>telefon: 92 42 95 33<br>
 					eller <a href="mailto:post@fossnesgrendehus.no">mail</a></h3>
+				</div>
+				
+			</div>
+			
+			<div id="rute4">
+				<div id="ruteOverskrift4">
+					<h5>HMSL.NO</h5>
+				</div>
+				<div id="rutehmsl">
+					<a href="http://www.hmsl.no" target="blank"><img src="img/hmslbilde.jpg" /></a>
+				</div>
+				<div id="ruteHMSLText">
+					Vi sammarbeider</br>med Hobøl </br>Miniatyrskytterlag 
 				</div>
 				
 			</div>
@@ -96,6 +116,8 @@
 				</div>
 				<div id="fbInnlegg">
 					<img src="img/face.jpg" />
+					<!-- <div class="fb-like-box" data-href="https://www.facebook.com/Fossnesgrendehus?ref=ts&amp;fref=ts" data-width="270" data-height="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+					-->
 				</div>
 				
 			</div>
