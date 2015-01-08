@@ -258,8 +258,9 @@ body
 {
 	position: absolute;
 	left: 312.5px;
+	top: 0;
 	width: 275px;
-	height: 350px;
+	height: 165px;
 	border: 1px solid black;
 	background: white;
 }
@@ -306,6 +307,58 @@ body
 	//text-decoration:none;
 	
 }
+
+#rute4
+{
+	position: absolute;
+	left: 312.5px;
+	bottom: 0;
+	width: 275px;
+	height: 165px;
+	border: 1px solid black;
+	background: white;
+}
+
+#ruteOverskrift4
+{
+	//font-family: Monotype Corsiva;
+	font-family: Sanvito Pro;
+	width: 275px;
+	height: 50px;
+	color: white;
+	font-size: 25px;
+	background: black;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#ruteOverskrift4 h5
+{
+	margin: 0;
+	text-align: center;
+	padding-top: 0.3em;
+	font-size: 30px;
+	font-weight:500;
+}
+#rutehmsl
+{
+	float:left;
+	font-size: 15px;
+	margin-left: 1em;
+}
+
+#rutehmsl img
+{
+	font-size: 15px;
+	margin-top:0.2em;
+}
+#ruteHMSLText
+{
+	float:right;
+	margin-right:0.3em;
+	margin-top:1.5em;
+}
+
 #rute3
 {
 	position: absolute;
@@ -373,6 +426,8 @@ body
 {
 	margin-top: 1em;
 	margin-right: 3em;
+	height: 151px;
+	width: 228px;
 	float: right;
 }
 
@@ -436,7 +491,7 @@ body
 
 #blk-1
 {
-	height: 600px;
+	height: 850px;
 	width: 600px;
 	//background: green;
 }
@@ -460,7 +515,24 @@ body
 	border-radius: 25px;
 }
 
+#tekstkjokken1
+{
+	margin-top: 1em;
+	float:left;
+	height: 150px;
+	width: 600px;
+	color: white;
+	background: #808080;
+	
+	border-radius: 25px;
+}
+
 #teskt1Storstue p
+{
+	margin-left: 1em;
+}
+
+#tekstkjokken1 p
 {
 	margin-left: 1em;
 }
@@ -471,31 +543,43 @@ body
 	float:right;
 }
 
+#storstueLinje2
+{
+	height: 265px;
+}
+#storstueLinje3
+{
+	height: 165px;
+}
+
 #blk-2
 {
-	height: 400px;
+	height: 600px;
 	width: 600px;
-	background: red;
 }
 
 #blk-3
 {
-	height: 400px;
+	height: 1050px;
 	width: 600px;
-	background: yellow;
 	margin-top: 0px;
 }
 #blk-4
 {
-	height: 400px;
-	width: 550px;
+	height: 500px;
+	width: 600px;
+}
+
+#lokaleFront2
+{
+	margin-top:1.5em;
+	
 }
 
 #blk-5
 {
-	height: 700px;
+	height: 850px;
 	width: 600px;
-	background: blue;
 }
 
 #tekst
@@ -605,6 +689,50 @@ body
  	 -webkit-columns: 2;
  	 -moz-columns: 2;
  	 font-size: 18px;
+}
+#kontaktGruppe
+{
+	position: relative;
+	padding-bottom: 2em;
+	height: 300px;
+	margin-left: 5em;
+}
+#kontaktTekst 
+{
+	width: 200px;
+	height: 280px;
+	border: 1px solid black;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-radius: 25px;
+	margin-right:  5em;
+	padding-top: 1em;
+	font-size: 14px;
+}
+#kontaktTekstTekst
+{
+	width: 70%;
+	display: table;
+    margin: 0 auto;
+}
+
+#kontaktTekst img
+{
+	height: 190px;
+	width: 160px;
+	display: table;
+    margin: 0 auto;
+	border: thin solid black;
+	border-radius: 25px;
+	margin-bottom: 0.5em;
+}
+#kontaktBoks 
+{
+	margin-left: 5em;
+	width: 200px;
+	height: 250px;
+	border: 1px solid black;
 }
 
 
